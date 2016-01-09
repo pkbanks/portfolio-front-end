@@ -11,14 +11,6 @@
 	pkbanks@gmail.com
 */
 
-* {
-	webkit-box-sizing: border-box;
-	moz-box-sizing: border-box;
-	ms-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-
 body{
 	font-family: 'Lato', sans-serif;
 	color: #bcbbbb;
@@ -39,8 +31,6 @@ header .logo img{
 }
 
 .self-banner{
-	text-align: right;
-	text-transform: uppercase;
 	padding: 10px;
 	font-weight: normal;
 }
@@ -113,7 +103,6 @@ header .logo img{
 }
 
 .project-name{
-	text-transform: uppercase;
 	font-weight: bold;
 }
 
