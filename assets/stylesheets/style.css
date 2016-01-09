@@ -4,6 +4,11 @@
 	Front-End Web Developer Nanodegree
 	For more info, go here:
 		https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001
+
+	Thanks for checking out my code!
+
+	PK Banks
+	pkbanks@gmail.com
 */
 
 * {
@@ -21,6 +26,7 @@ body{
 
 header{
 	border-bottom: 3px solid #bcbbbb;
+	padding-bottom: 5px;
 }
 
 header .logo{
@@ -60,7 +66,9 @@ header .logo img{
 	padding-bottom: 30px;
 }
 
-.hero-image{
+.hero img{
+	display: block;
+	margin: auto;
 	height: 100%;
 	width: 100%;
 }
@@ -77,13 +85,27 @@ header .logo img{
 	font-size: 30px;
 }
 
+.thumbnail-container img{
+	width: inherit;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-height: 159px;
+}
 
-.project, .project a{
+.project {
 	padding: 0px;
+	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.project a{
 	color: #747704;
 	font-weight: 300;
 	text-align: center;
+}
+
+.project:hover{
+	background-color: #f2f2f2;
 }
 
 .projects .project .thumbnail-container{
@@ -93,4 +115,33 @@ header .logo img{
 .project-name{
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+footer p{
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+	margin: 20px;
+}
+
+footer p a{
+	color: inherit;
+	text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+ 	.logo img{
+ 		display: block;
+ 		margin: auto;
+ 	}
+
+ 	.self-banner{
+ 		text-align: center;
+ 	}
+
+ 	.project{
+ 		border-bottom: 1px solid #a0a0a0;
+ 	}
 }
