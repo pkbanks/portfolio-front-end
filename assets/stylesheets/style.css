@@ -108,7 +108,7 @@ header .logo .title-logo{
 .project a{
 	color: #747704;
 	font-weight: 300;
-	text-align: center;
+	
 }
 
 .project:hover{
@@ -122,6 +122,10 @@ header .logo .title-logo{
 .project-name{
 	font-weight: bold;
 }
+
+.project .link:hover{
+ 		text-decoration: underline;
+ 	}
 
 footer p{
 	text-align: center;
@@ -150,4 +154,5 @@ footer p a{
  	.project{
  		border-bottom: 1px solid #a0a0a0;
  	}
+
 }
