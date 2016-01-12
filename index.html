@@ -1,9 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PK Banks, front-end web developer portfolio</title>
+    <meta name="description" content="portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- footnotes, acknowledgements, and comments unrelated to the markup can be found at the bottom of this file -->
+
+    <!-- stylesheets -->
+    	<!-- clear styling, thank you meyer web -->
+    	<link rel="stylesheet" href="assets/stylesheets/reset.css" />
+
+    	<!-- Bootstrap CDN -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    	<!-- custom -->
+    	<link rel="stylesheet" href="assets/stylesheets/style.css"/>
+
+    	<!-- fonts -->
+    	<link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'> <!-- font-family: 'Lato', sans-serif; -->
+
+
+
+    <!-- JavaScript -->
+
+</head>
+<body>
+	<div class="container">
+		<header class="row">
+			<div class="col-md-4">
+				<img src="assets/images/logo-2.png" class="img-responsive title-logo" alt="logo" />
+			</div>
+			<div class="col-md-8 text-uppercase">
+				<h1 class="text-thin title-super">PK Banks</h1>
+				<h4 class="title-description">Front-End Developer</h4>
+			</div>
+		</header>
+
+		<main class="row">
+
+			<div class="row">
+				<img class="col-md-12 img-responsive hero-image" src="assets/images/pk-wyncode.jpg" alt="PK speaking at Wyncode"/>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted projects-heading">Featured Work</h2>
+				</div>
+			</div>
+
+			<section class="row text-center projects">
+				<a class="link" href="https://github.com/pkbanks/udacity-front-end-project-0.git" target="_blank"><div class="col-md-4 project">
+					<img class="img-responsive icon" src="assets/images/team.jpg" alt="team photo" />
+					<h3 class="text-uppercase project-title">about me</h3>
+					<p>https://github.com/pkbanks/udacity-front-end-project-0.git</p>
+				</div></a>
+				<a class="link" href="https://github.com/pkbanks/random-kitten-image-generator.git" target="_blank"><div class="col-md-4 project">
+					<img class="img-responsive icon" src="assets/images/kitten.jpeg" alt="kitten" />
+					<h3 class="text-uppercase project-title">random kitten image generator</h3>
+					<p>https://github.com/pkbanks/random-kitten-image-generator.git/</p>
+				</div></a>
+				<a class="link" href="http://www.meme.menu" target="_blank"><div class="col-md-4 project">
+					<img class="img-responsive icon" src="assets/images/miam.jpg" alt="miam cafe" />
+					<h3 class="text-uppercase project-title">meme menu</h3>
+					<p>http://www.meme.menu</p>
+				</div></a>
+			</section>
+		</main>
+
+		<footer class="row">
+			<div class="div-col-12">
+				<p>This portfolio is the result of project work prescribed by Udacity.  For more information about <a href="https://www.udacity.com" target="_blank">Udacity</a>, its course materials, and other amazing things click <a href="https://www.udacity.com" target="_blank">here</a>.</p>
+			</div>
+		</footer>
+	</div> <!-- /container -->
+
+
+	<!--
 		** UDACITY shout out **
 		this portfolio is
 			Project 1 of
@@ -23,111 +98,5 @@
 		January 2016
 	-->
 
-	<title>PK Banks Front End Developer Portfolio</title>
-
-
-	<!-- Stylesheets and Fonts	-->
-		
-		<!-- Clear styles, thank you meyerweb  http://meyerweb.com/eric/tools/css/reset/ -->
-		<link rel="stylesheet" href="assets/stylesheets/reset.css" />
-		
-		<!-- Bootstrap CDN-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		
-		<!-- Custom CSS -->
-		<link rel="stylesheet" href="assets/stylesheets/style.css" />
-
-		<!-- Google Fonts -->
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'> <!-- font-family: 'Lato', sans-serif; -->
-
-	<!-- JavaScript -->  
-
-
-</head>
-
-<body>
-	
-	<div class="container">
-
-		<header class="header row">
-			
-			<div class="col-sm-4 logo">
-				<img class="img-responsive title-logo" src="assets/images/logo-2.png" alt="logo" />
-			</div>
-			<div class="col-sm-8 self-banner text-right text-uppercase">
-				<h1 class="col-sm-12 self-name text-thin title-super">PK Banks</h1>
-				<h4 class="col-sm-12 self-title">Front-End Web Developer</h4>
-			</div>
-		</header>
-	
-		<main class="row">
-			
-			<div class="col-sm-12 hero">
-					<img class="img-responsive" src="assets/images/pk-wyncode.jpg" alt="PK, as a guest speaker at Wyncode" />
-			</div>
-		
-			<section class="projects-collection">
-
-				<div class="col-sm-12 projects-header">
-					<h2 class="text-muted">Featured Work</h2>
-				</div>
-
-				<div class="col-sm-12 projects text-center">
-
-					<!-- 3-colum layout, .project -->
-				
-					<div class="col-sm-4 project">
-						<a href="https://github.com/pkbanks/udacity-front-end-project-0.git" target="_blank">
-							<div class="col-sm-12 thumbnail-container">
-								<img src="assets/images/team.jpg" alt="the team" />
-							</div>
-							<div class="col-sm-12 project-name text-uppercase">
-								<h3>about me</h3>
-							</div>
-							<div class="col-sm-12 link">
-								<p>https://github.com/pkbanks/udacity-front-end-project-0.git</p>
-							</div>
-						</a>
-					</div>
-					
-					<div class="col-sm-4 project">
-						<a href="https://github.com/pkbanks/random-kitten-image-generator.git" target="_blank">
-							<div class="col-sm-12 thumbnail-container">
-								<img src="assets/images/kitten.jpeg" alt="kitten">
-							</div>
-							<div class="col-sm-12 project-name text-uppercase">
-								<h3>kitten image generator</h3>
-							</div>
-							<div class="col-sm-12 link">
-								<p>https://github.com/pkbanks/random-kitten-image-generator.git/</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="col-sm-4 project">
-						<a href="http://www.meme.menu/" target="_blank">
-							<div class="col-sm-12 thumbnail-container">
-								<img src="assets/images/miam.jpg" alt="Miam Cafe in Wynwood Miami">
-							</div>
-							<div class="col-sm-12 project-name text-uppercase">
-								<h3>meme menu</h3>
-							</div>
-							<div class="col-sm-12 link">
-								<p>http://www.meme.menu</p>
-							</div>
-						</a>
-					</div>
-				
-				</div>
-			</section>
-		</main>
-
-		<footer class="row">
-			<div class="div-col-12">
-				<p>This portfolio is the result of project work prescribed by Udacity.  For more information about <a href="https://www.udacity.com" target="_blank">Udacity</a>, its course materials, and other amazing things click <a href="https://www.udacity.com" target="_blank">here</a>.</p>
-			</div>
-		</footer>
-
-	</div>	<!-- /.container -->
 </body>
 </html>
